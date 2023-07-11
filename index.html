@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/stayle.css" />
+    <title>CALCULATOR by:UBBAstudio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calcul">
+        <button class="btn moon">
+          <img class="img-sunmoon" src="img/btn-sun.png" alt="" />
+        </button>
+        <a
+          class="img-logo"
+          style="text-decoration: none"
+          href="https://instagram.com/ubbastudio.official?igshid=NGExMmI2YTkyZg=="
+          ><img
+            style="width: 32px; height: 32px"
+            class="img-loogo"
+            src="img/white-logo-ubba.svg"
+            alt=""
+        /></a>
+        <input maxlength="9" type="text" class="input" readonly value="0" />
+        <hr class="calcul-hr" />
+        <div class="container">
+          <div class="calcul-btns" id="btns">
+            <button class="button btn-gray" id="clear" value="ac">AC</button>
+            <button class="button btn-gray" id="plusminus" value="=/-">
+              +/-
+            </button>
+            <button class="button btn-gray" id="percent" value="%">%</button>
+            <button class="button btn-gold" id="division" value="/">÷</button>
+            <button class="button btn-blck" id="num1" value="1">1</button>
+            <button class="button btn-blck" id="num2" value="2">2</button>
+            <button class="button btn-blck" id="three" value="3">3</button>
+            <button class="button btn-gold" id="multiplication" value="*">
+              X
+            </button>
+            <button class="button btn-blck" id="four" value="4">4</button>
+            <button class="button btn-blck" id="five" value="5">5</button>
+            <button class="button btn-blck" id="six" value="6">6</button>
+            <button class="button btn-gold" id="minus" value="-">-</button>
+            <button class="button btn-blck" id="seven" value="7">7</button>
+            <button class="button btn-blck" id="eight" value="8">8</button>
+            <button class="button btn-blck" id="nine" value="9">9</button>
+            <button class="button btn-gold" id="plus" value="+">+</button>
+          </div>
+          <div class="calcul-btns-footer" id="btns">
+            <button class="button btn-blck w1" id="zero" value="0">0</button>
+            <button class="button btn-blck" id="dot" value=".">.</button>
+            <button class="button btn-gold" id="equals" value="=">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
